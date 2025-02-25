@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maximum Heart Rate Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Maximum Heart Rate Calculator</h1>
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age"><br><br>
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="male">Man</option>
+    <option value="female">Woman</option>
+    <option value="non-binary">Non-Binary</option>
+    <option value="prefer-not-to-disclose">Prefer not to disclose</option>
+  </select><br><br>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <p id="result"></p>
+
+  <img src="heart-removebg-preview.png" alt="Heart Image" id="heartImage">
+
+  <script src="script.js"></script>
+  <p>DISCLAIMER: this calculator uses statistics to calculate maximum heart rates and may or may not be an accurate reflection of your maximum heart rate. </p>
+</body>
+</html>
